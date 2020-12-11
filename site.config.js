@@ -1,7 +1,7 @@
 module.exports = {
-  siteName: 'Space Jelly Shop',
+  siteName: 'Alfredo\'s Shop & Go',
   homepage: 'https://myproduct.com',
-  authorName: 'Colby Fayock',
-  authorUrl: 'https://twitter.com/colbyfayock',
-  supportEmail: 'hello@colbyfayock.com'
+  authorName: 'Alfredo Sumosa',
+  authorUrl: 'https://twitter.com/alfredosumosa',
+  supportEmail: 'hello@alfredosumosa.com'
 }
