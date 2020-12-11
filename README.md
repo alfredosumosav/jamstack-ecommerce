@@ -1,8 +1,15 @@
 # Next.js Alfredo's Shop & Go Ecommerce
 
-## 🚀 Getting Started
-###### Starter template provided by [@Colby Fayock](https://github.com/colbyfayock)
+### [**Demo**](http://alfredo-store.s3-website-us-west-1.amazonaws.com/)
+
 <br />
+
+## 🚀 Getting Started
+
+###### Starter template provided by [@Colby Fayock](https://github.com/colbyfayock)
+
+<br />
+
 Run the following command to create a new project with this Starter:
 
 ```
