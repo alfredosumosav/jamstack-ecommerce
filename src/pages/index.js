@@ -17,37 +17,59 @@ export default function Home() {
 
   return (
     <Layout>
-
       <Helmet>
-        <title>{ siteName }</title>
+        <title>{siteName}</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://app.snipcart.com" />
+        <link rel="preconnect" href="https://cdn.snipcart.com" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.css"
+        />
       </Helmet>
 
       <Section className={styles.homeHeader}>
         <Container>
-          <h1 className={styles.homeTitle}>
-            { siteName }
-          </h1>
+          <h1 className={styles.homeTitle}>{siteName}</h1>
         </Container>
       </Section>
 
       <Section>
         <Container>
           <ul className={styles.productGrid}>
-            {products.map(product => {
+            {products.map((product) => {
               return (
                 <li key={product.id}>
                   <img src={product.image} />
-                  <h2>{ product.name }</h2>
-                  <p>{ product.description }</p>
-                  <Button>Add to Cart</Button>
+                  <h2>{product.name}</h2>
+                  <p>{product.description}</p>
+                  <p>${product.price}</p>
+                  <Button
+                    className="snipcart-add-item"
+                    data-item-id={product.id}
+                    data-item-description={product.description}
+                    data-item-image={product.image}
+                    data-item-name={product.name}
+                    data-item-url="/"
+                    data-item-price={product.price}
+                  >
+                    Add to Cart
+                  </Button>
                 </li>
-              )
+              );
             })}
           </ul>
         </Container>
       </Section>
-
+      <script
+        async
+        src="https://cdn.snipcart.com/themes/v3.0.26/default/snipcart.js"
+      />
+      <div
+        hidden
+        id="snipcart"
+        data-api-key="ZDEyOWMzZmItYjE0My00YmU5LTg5NGQtZDQ5MTA0YWE0NDdhNjM3NDMyNjQ2NDgxMTY5OTE4"
+      />
     </Layout>
-  )
+  );
 }
