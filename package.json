@@ -1,12 +1,12 @@
 {
   "name": "next-product-starter",
   "title": "Next.js Product Starter",
-  "description": "Create a new product!",
+  "description": "Alfredo's Shop & Go",
   "version": "0.1.0",
   "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
+    "name": "Alfredo Sumosa",
+    "email": "hello@alfredosumosa.com",
+    "url": "https://twitter.com/alfredosumosa"
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.9.0",
@@ -31,12 +31,12 @@
     "build": "next build && next export",
     "start": "next start"
   },
-  "homepage": "https://next-product-starter.vercel.app",
+  "homepage": "http://alfredo-store.s3-website-us-west-1.amazonaws.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/next-product-starter"
+    "url": "https://github.com/alfredosumosav/jamstack-ecommerce"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/next-product-starter/issues"
+    "url": "https://github.com/alfredosumosav/jamstack-ecommerce/issues"
   }
 }

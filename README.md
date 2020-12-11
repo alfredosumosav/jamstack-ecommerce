@@ -1,12 +1,8 @@
-# Next.js Space Jelly Ecommerce Starter
-
-
-
-## ⚡️ Quick Start
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/colbyfayock/next-spacejelly-ecommerce-starter)
+# Next.js Alfredo's Shop & Go Ecommerce
 
 ## 🚀 Getting Started
-
+###### Starter template provided by [@Colby Fayock](https://github.com/colbyfayock)
+<br />
 Run the following command to create a new project with this Starter:
 
 ```

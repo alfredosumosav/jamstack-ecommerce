@@ -2,8 +2,8 @@ const withPlugins = require('next-compose-plugins');
 const images = require('next-images');
 
 const siteConfig = {
-  siteName: 'My Product',
-  gaPropertyId: 'XX-123456789-1'
+  siteName: "Alfredo's Shop & Go",
+  gaPropertyId: "UA-156374155-2",
 };
 
 module.exports = withPlugins([
@@ -11,6 +11,6 @@ module.exports = withPlugins([
 ], {
   env: {
     ...siteConfig,
-    NEXT_PUBLIC_siteName: 'My Product'
+    NEXT_PUBLIC_siteName: "Alfredo's Shop & Go"
   }
 });
